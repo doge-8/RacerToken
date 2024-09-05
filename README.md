@@ -48,7 +48,7 @@ python3.10 get-pip.py
 ```shell
 python3.10 -m venv venv
 source venv/bin/activate
-pip3 install -r requirements.txt
+python3.10 -m pip install -r requirements.txt
 ```
 填写api码
 ```shell
