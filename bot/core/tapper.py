@@ -95,9 +95,9 @@ async def run_tapper(tg_client: Client, proxy: str | None):
         try:
             tg_web_data = await Tapper(tg_client=tg_client).get_tg_web_data(proxy=proxy)
             print(tg_web_data)
-            with open('/root/okx/token1.txt', 'w') as file:
+            with open('/root/okx/token1.txt', 'w') as file:  # 填入更改token的代号
                 file.write(f"{tg_web_data}\n")
-            print(f"token已写入")
+            print(f"token1已写入")
         except Exception as e:
             print(f"Error: {e}")
 
