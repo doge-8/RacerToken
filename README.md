@@ -52,7 +52,7 @@ pip3 install -r requirements.txt
 ```
 填写api码
 ```shell
-vim .env-example   #填入api id和api hash
+vim .env-example   #修改填入api id和api hash，nano或者记事本修改都可以
 cp .env-example .env
 ```
 运行脚本（先选2创建账户文件，需要账号密码登录。成功登录后使用1启动脚本）
